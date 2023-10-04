@@ -1,0 +1,77 @@
+.logo {
+    position: fixed;
+    top:12px;
+    left:12px;
+    padding: 7;
+    width: 60px;
+    height: 60px;
+}
+body {   
+    background-color: #645f55;  
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.lbutton {   
+         background-color: #000;   
+         width: 100%;  
+          color: #ffffff;   
+          padding: 15px;   
+          margin: 15px 0px;   
+          border: none;   
+          cursor: pointer;   
+          font-family: Helvetica, sans-serif, Arial;
+          font-size: 14px;
+}   
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+         background-color: #000;   
+         color: #ffffff;   
+         padding: 10px;   
+         margin: 10px 0px;   
+         border: none;   
+         cursor: pointer;
+         text-decoration: none;      
+         font-size: 14px;
+}
+
+form {   
+          border: 6px solid #bbbbbb;   
+          margin-left: 25%; 
+          margin-right: 25%;
+}   
+input[type=text], input[type=password] {   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 3px solid #bbbbbb;   
+          box-sizing: border-box;   
+}  
+button:hover {   
+        opacity: 0.7;   
+}  
+a.button:hover {   
+    opacity: 0.7;   
+}  
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}          
+       
+.container {   
+          padding: 40px;   
+          background-color: #a35440; 
+ 
+}   
+    
+ .header {
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+        color: #ffffff; 
+}
+/* Register uses same page, differences (if any) below */
