@@ -7,6 +7,7 @@ function processForm() {
     let userName = document.getElementById("name").value;
     let passWord = document.getElementById("pass").value;
 
+    // hard coded username and password
     if (userName === "GBH" && passWord === "Yakuza") {
         location.href = "NodeCFBrowse.html"
     } else {

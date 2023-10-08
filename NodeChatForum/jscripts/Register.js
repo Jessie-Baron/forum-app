@@ -1,3 +1,4 @@
+    
     function regProcess() {
 
         let userName = document.getElementById("name").value;
@@ -9,9 +10,9 @@
 
         if (userName === "GBH" && passWord === "Yakuza") {
            if (toSkip == true ) {
-            location.href="browse.html"
+            location.href="NodeCfBrowse.html"
            } else {
-            location.href="Login.html"
+            location.href="NodeCFLogin.html"
            }
         } else {
             alert("Sorry " + userName + " but the information did not match.");

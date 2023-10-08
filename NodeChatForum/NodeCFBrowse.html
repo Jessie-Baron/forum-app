@@ -3,14 +3,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=-divice-width, intial-scale=1.0">
-    <link rel="stylesheet" href="styles/NodeCFLanding.css">
+    <link rel="stylesheet" href="styles/NodeCFBrowse.css">
     
     <title>NodeCF Home</title>
 </head>
 <body>   
-    <h1 class ="header">Cry</h1>
 
     <img src="images/masksTemp.png" class="display">
+
+    <div class="chat-rooms">
+        <div class="selection">Chat Rooms</div>
+
+        <div class="chat-content">
+            <button type="button" class="button" onClick="hideOther">Room 1</button>
+        </div>
+        <div class="chat-content">
+            <button type="button" class="button" onClick="hideOther">Room 2</button>
+        </div>
+    </div>
+
+    <div class="new-room">
+    <label for="roomName"> New Room Name:</label><br>
+    <input type="text" id="roomName" name="roomName"><br>
+    <button onclick="addThread()" class="btn-room">Create Room</button>
+    </div>
+
+    <script src="jscripts/Browse.js"></script>
 
 </body>
 </html>

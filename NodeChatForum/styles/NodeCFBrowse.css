@@ -1,0 +1,65 @@
+
+body{
+  background-color: #645f55;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+header{
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding: 20px;
+  color: #ffffff; 
+}
+
+.display{
+  display: block;
+  width: 80px;
+  height: 80px;
+  top:25xp;
+  right:25px;
+}
+.selection{
+  font-size: 32px;
+  text-decoration: underline;
+}
+.chat-rooms{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.new-room{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+}
+.button{
+  color:black;
+  padding: 18px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 4px 2px;
+  width:220px;
+}
+.btn-room{
+  background-color: rgb(107, 23, 23);
+  color: #ffffff;
+  border:none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 2px;
+}
